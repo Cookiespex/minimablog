@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	background: url(../img/back.jpg);
+	background-position: top center;
+	height: 1200px;
+}
+/*=============================================
+CABEZOTE
+=============================================*/
+header{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 134px;
+	background: rgba(255,255,0,.5);
+}
+/*=============================================
+BARRA DE NAVEGACION
+=============================================*/
+nav{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 571px;
+	background: rgba(0,255,255,.5);
+}
+/*=============================================
+PARRAFO
+=============================================*/
+#paragrhap{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 382px;
+	background: rgba(0,0,255,.5);
+}
+/*=============================================
+TITULO
+=============================================*/
+#titule{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 60px;
+	background: rgba(255,0,0,.5);
+}
+/*=============================================
+SECCION
+=============================================*/
+section{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 1317px;
+	background: rgba(0,255,0,.5);
+}
+/*=============================================
+BOTTOM
+=============================================*/
+#bottom{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 249px;
+	background: rgba(300,0,300,.5);
+}
+/*=============================================
+BOTTEM
+=============================================*/
+#bottem{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 686px;
+	background: rgba(0,300,255,.5);
+}
+/*=============================================
+BOTON
+=============================================*/
+#boton{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 256px;
+	background: rgba(400,255,100,.5);
+}
+/*=============================================
+BOTON
+=============================================*/
+footer{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 99px;
+	background: rgba(255,100,300,.5);
+}
