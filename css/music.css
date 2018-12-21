@@ -157,6 +157,21 @@ TEXTU
 	height: 345px;
 	background: rgba(100,255,255,.5);
 }
+#textu ul {
+	position: relative;
+	top: 4px;
+	left: 120px;
+	width: 960px;
+	height: 330px;
+	background: rgba(0,255,0,.5);
+}
+#textu ul li p{
+	position: relative;
+	width: 930px;
+	height: 330px;
+	margin: 0px 25px;
+	font-size: 19px;
+}
 /*=============================================
 REDES
 =============================================*/
@@ -166,6 +181,51 @@ REDES
 	width: 1200px;
 	height: 123px;
 	background: rgba(350,0,0,.5);
+}
+#redes ul{
+	position: absolute;
+	top: 29px;
+	left: 852px;
+	width: 48px;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	background: rgba(200,200,0,.5);
+}
+#redes ul#re{
+	position: absolute;
+	top: 29px;
+	left: 900px;
+	width: 160px;
+	height: 20px;
+	background: rgba(100,55,240,.5);
+}
+#redes ul#re li{
+	position: relative;
+	float: left;
+	width: 20px;
+	height: 20px;
+	left: 2px;
+	margin: 0px 5px;
+}
+#redes ul#re li:first-child{background: url(../img/red1.jpg);
+	background-size: cover;
+}
+#redes ul#re li:nth-child(2){background: url(../img/red2.jpg);
+	background-size: cover;
+}
+#redes ul#re li:nth-child(3){background: url(../img/red3.jpg);
+	background-size: cover;
+}
+#redes ul#re li:nth-child(4){background: url(../img/red4.jpg);
+	background-size: cover;
+}
+#redes ul#re li:last-child{background: url(../img/red5.jpg);
+	background-size: cover;
+}
+#redes ul#re li a{float: left;
+	width: 20px;
+	height: 20px;
 }
 /*=============================================
 BOTTOM
@@ -177,6 +237,45 @@ BOTTOM
 	height: 434px;
 	background: rgba(0,190,0,.5);
 }
+#bottom ul{
+	position: relative;
+	top: 20px;
+	left: 100px;
+	width: 1000px;
+	height: 390px;
+	background: rgba(255,0,0,.5);
+}
+#bottom ul li{
+	position: relative;
+	float: left;
+	top: 39px;
+	left: 31px;
+	margin: 0px 20px;
+	width: 272px;
+	height: 290px;
+	background: rgba(0,0,300,.5);
+}
+#bottom ul li h3{
+	position: relative;
+	top: 6px;
+	width: 272px;
+	height: 30px;
+	font-size: 13px;
+	font-weight: 100;
+}
+#bottom ul li img{
+	position: absolute;
+	top: 60px;
+	width: 272px;
+	height: 183px;
+}
+#bottom ul li h1{
+	position: absolute;
+	top: 263px;
+	width: 272px;
+	font-size: 22px;
+	font-weight: 100;
+}
 /*=============================================
 COMENTARIOS
 =============================================*/
@@ -186,6 +285,31 @@ COMENTARIOS
 	width: 1200px;
 	height: 661px;
 	background: rgba(0,0,190,.5);
+}
+#comentarios ul{
+	position: relative;
+	top: 66px;
+	left: 150px;
+	width: 904px;
+	height: 20px;
+	font-size: 13px;
+	font-weight: 100;
+}
+#comentarios ul#cone{
+	position: relative;
+	top: 98px;
+	left: 148px;
+	width: 904px;
+	height: 380px;
+	background: rgba(300,0,0,.5);
+}
+#comentarios ul#reds{
+	position: relative;
+	top: 98px;
+	left: 790px;
+	width: 300px;
+	height: 55px;
+	background: rgba(0,300,0,.5);
 }
 /*=============================================
 FOOTER
