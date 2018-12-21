@@ -3,10 +3,12 @@
 	padding: 0;
 	text-decoration: none;
 	list-style: none;
+	font-family: ;
 }
 body{
-	background: url(../img/background1.jpg);
-	background-repeat: repeat;
+	background: url(../img/back2.jpg);
+	background-position: top center;
+	height: 1200px;
 }
 /*=============================================
 CABEZOTE
@@ -16,7 +18,8 @@ header{
 	margin: auto;
 	width: 1200px;
 	height: 134px;
-	background: #ffffff;
+	background: rgba(255,0,0,.5);
+	/*background: #ffffff;*/
 }
 #logo{
 	position: absolute;
@@ -24,6 +27,7 @@ header{
 	left: 67px;
 	width: 123px;
 	height: 22px;
+	background: rgba(0,0,255,.5);
 }
 /*=============================================
 BARRA DE NAVEGACION
@@ -33,6 +37,7 @@ nav{
 	margin: auto;
 	width: 1200px;
 	height: 134px;
+	background: rgba(0,255,0,.5);
 }
 nav ul{
 	position: relative;
@@ -40,6 +45,7 @@ nav ul{
 	left: 500px;
 	width: 700px;
 	height: 19px;
+	background: rgba(300,0,0,.5);
 }
 nav ul li{
 	position: relative;
@@ -49,6 +55,7 @@ nav ul li{
 	width: 90px;
 	height: 15px;
 	font-size: 14px;
+	background: rgba(0,300,0,.5);
 }
 /*=============================================
 SLIDE
@@ -58,7 +65,8 @@ SLIDE
 	margin: auto;
 	width: 1200px;
 	height: 576px;
-	background: #ffffff;
+	background: rgba(0,0,300,.5);
+	/*background: #ffffff;*/
 }
 #slide ul{
 	position: relative;
@@ -74,16 +82,17 @@ PARRAFO
 	position: relative;
 	margin: auto;
 	width: 1200px;
-	height: 377px;
-	background: #ffffff;
+	height: 445px;
+	background: rgba(100,100,0,.5);
+	/*background: #ffffff;*/
 }
 #paragrhap ul{
 	position: relative;
 	top: 60px;
 	left: 147px;
-	width: 900px;
-	height: 300px;
-	
+	width: 910px;
+	height: 380px;
+	background: rgba(0,255,255,.5);
 }
 #paragrhap ul h3{
 	position: absolute;
@@ -92,6 +101,7 @@ PARRAFO
 	color: #c1c1c1;
 	font-size: 12px;
 	margin: 0px 5px;
+	background: rgba(255,255,0,.5);
 }
 #paragrhap ul h1{
 	position: absolute;
@@ -101,90 +111,61 @@ PARRAFO
 	font-size: 33px;
 	font-weight: 100;
 	margin: 35px 5px;
+	background: rgba(255,0,255,.5);
 }
 #paragrhap ul p{
 	position: absolute;
-	width: 890px;
-	height: 188px;
+	width: 900px;
+	height: 266px;
 	font-size: 18px;
 	top: 99px;
 	left: 3px;
+	background: rgba(200,255,200,.5);
 }
 /*=============================================
-TITULO
+FOTOS
 =============================================*/
-#titule{
+#fotos{
 	position: relative;
 	margin: auto;
 	width: 1200px;
-	height: 60px;
-	background: #ffffff;
+	height: 2230px;
+	background: rgba(290,290,100,.5);
 }
-#titule ul{
-	position: relative;
-	width: 890px;
-	height: 20px;
-	color: #c9cac5;
-	font-size: 12px;
-	font-weight: 100;
-	top: 19px;
+#fotos ul{
+	position: absolute;
+	top: 0px;
 	left: 150px;
+	width: 899px;
+	height: 2230px;
+	background: rgba(100,300,299,.5);
+}
+#fotos ul li{
+	position: relative;
+	width: 899px;
+	height: 676px;
+	margin: 51px 0px;
+	background: rgba(0,300,0,.5);
 }
 /*=============================================
-SECCION
+TEXTU
 =============================================*/
-section{
+#textu{
 	position: relative;
 	margin: auto;
 	width: 1200px;
-	height: 1317px;
-	background: #ffffff;
+	height: 345px;
+	background: rgba(100,255,255,.5);
 }
-section #sec ul{
+/*=============================================
+REDES
+=============================================*/
+#redes{
 	position: relative;
-	top: 40px;
-	left: 75px;
-	width: 1050px;
-	height: 1200px;
- 
-}
-section #sec ul li{
-	position: relative;
-	float: left;
-	top: 7px;
-	left: 44px;
-	margin: 60px 30px;
-	width: 421px;
-	height: 490px;
-}
-section #sec ul li img{
-	position: relative;
-	width: 421px;
-	height: 280px;
-}
-section #sec ul li h3{
-	position: relative;
-	top: 25px;
-	width: 421px;
-	height: 20px;
-	color: #d8d7d5;
-	font-size: 12px;
-}
-section #sec ul li h1{
-	position: relative;
-	top: 42px;
-	width: 421px;
-	height: 30px;
-	font-size: 32px;
-	color: #5f5f5f;
-	font-weight: 100;
-}
-section #sec ul li p{
-	position: relative;
-	top: 82px;
-	width: 421px;
-	height: 30px;
-	font-size: 16px;
+	margin: auto;
+	width: 1200px;
+	height: 123px;
+	background: rgba(350,0,0,.5);
 }
 /*=============================================
 BOTTOM
@@ -193,133 +174,18 @@ BOTTOM
 	position: relative;
 	margin: auto;
 	width: 1200px;
-	height: 287px;
-	background: #f3f3f3;
-}
-#bottom ul{
-	position: relative;
-	top: 55px;
-	left: 383px;
-	width: 430px;
-	height: 175px;
-}
-#bottom ul li{
-	position: relative;
-	width: 400px;
-	height: 73px;
-	top: 11px;
-	left: 14px;
-	font-size: 35px;
-	color: #303030;
-	text-align: center;
-}
-#bottom ul li hr{
-	position: relative;
-	top: 40px;
-	border-color: black;
-}
-#bottom ul li form{
-	position: relative;
-	width: 400px;
-	height: 40px;
-	top: 33px;
-	left: 5px;
-}
-#bottom ul li form input#email{
-	position: absolute;
-	top: 10px;
-	left: 0px;
-	width: 362px;
-	height: 30px;
-	font-size: 15px;
-	color: #7f7f7f;
-	border: 0px;
-	background: #f3f3f3;
-}
-#bottom ul li form input#enviar{
-	position: absolute;
-	top: 13px;
-	left: 367px;
-	width: 33px;
-	height: 19px;
-	border: 0px;
-	background: url(../img/flechaenviar.jpg);
+	height: 434px;
+	background: rgba(0,190,0,.5);
 }
 /*=============================================
-BOTTEM
+COMENTARIOS
 =============================================*/
-#bottem{
+#comentarios{
 	position: relative;
 	margin: auto;
 	width: 1200px;
-	height: 648px;
-	background: #ffffff;
-}
-#bottem ul{
-	position: relative;
-	top: 40px;
-	left: 75px;
-	width: 1050px;
-	height: 570px;
-}
-#bottem ul li{
-	position: relative;
-	float: left;
-	top: 62px;
-	left: 44px;
-	margin: 0px 30px;
-	width: 421px;
-	height: 490px;
-}
-#bottem ul li img{
-	position: relative;
-	width: 421px;
-	height: 280px;
-}
-#bottem ul li h3{
-	position: relative;
-	top: 25px;
-	width: 421px;
-	height: 20px;
-	color: #d8d7d5;
-	font-size: 12px;
-}
-#bottem ul li h1{
-	position: relative;
-	top: 42px;
-	width: 421px;
-	height: 30px;
-	font-size: 32px;
-	color: #5f5f5f;
-	font-weight: 100;
-}
-#bottem ul li p{
-	position: relative;
-	top: 82px;
-	width: 421px;
-	height: 30px;
-	font-size: 16px;
-}
-/*=============================================
-BOTON
-=============================================*/
-#boton{
-	position: relative;
-	margin: auto;
-	width: 1200px;
-	height: 256px;
-	background: #ffffff;
-}
-#boton button{
-	position: relative;
-	top: 98px;
-	left: 516px;
-	font-size: 20px;
-	width: 164px;
-	height: 60px;
-	background: #ffffff;
-	color: #929191;
-	border: 1px solid #535353;
+	height: 661px;
+	background: rgba(0,0,190,.5);
 }
 /*=============================================
 FOOTER
@@ -329,7 +195,8 @@ footer{
 	margin: auto;
 	width: 1200px;
 	height: 99px;
-	background: #f3f3f3;
+	background: rgba(255,155,255,.5);
+	/*background: #f3f3f3;*/
 }
 footer ul{
 	position: relative;
