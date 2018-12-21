@@ -17,7 +17,15 @@ header{
 	margin: auto;
 	width: 1200px;
 	height: 134px;
-	background: rgba(255,255,0,.5);
+	background: rgba(0,0,255,.5);
+}
+#logo{
+	position: absolute;
+	top: 69px;
+	left: 67px;
+	width: 123px;
+	height: 22px;
+	background: rgba(255,0,0,.5);
 }
 /*=============================================
 BARRA DE NAVEGACION
@@ -26,8 +34,44 @@ nav{
 	position: relative;
 	margin: auto;
 	width: 1200px;
-	height: 571px;
-	background: rgba(0,255,255,.5);
+	height: 134px;
+	background: rgba(0,255,0,.5);
+}
+nav ul{
+	position: relative;
+	top: 70px;
+	left: 500px;
+	width: 700px;
+	height: 19px;
+	background: rgba(300,200,255,.5);
+}
+nav ul li{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin: 2px 42px;
+	width: 90px;
+	height: 15px;
+	font-size: 14px;
+	background: rgba(155,255,355,.5);
+}
+/*=============================================
+SLIDE
+=============================================*/
+#slide{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 576px;
+	background: rgba(100,255,255,.5);
+}
+#slide ul{
+	position: relative;
+	top: 29px;
+	left: 70px;
+	width: 1061px;
+	height: 509px;
+	background: rgba(400,255,255,.5);
 }
 /*=============================================
 PARRAFO
@@ -36,8 +80,42 @@ PARRAFO
 	position: relative;
 	margin: auto;
 	width: 1200px;
-	height: 382px;
+	height: 377px;
 	background: rgba(0,0,255,.5);
+}
+#paragrhap ul{
+	position: relative;
+	top: 60px;
+	left: 147px;
+	width: 900px;
+	height: 300px;
+	background: rgba(300,299,0,.5);
+}
+#paragrhap ul h3{
+	position: absolute;
+	width: 890px;
+	height: 20px;
+	font-size: 12px;
+	margin: 0px 5px;
+	background: rgba(300,0,0,.5);
+}
+#paragrhap ul h1{
+	position: absolute;
+	width: 890px;
+	height: 37px;
+	font-size: 33px;
+	font-weight: 100;
+	margin: 35px 5px;
+	background: rgba(0,300,0,.5);
+}
+#paragrhap ul p{
+	position: absolute;
+	width: 890px;
+	height: 188px;
+	font-size: 18px;
+	top: 99px;
+	left: 3px;
+	background: rgba(0,0,300,.5);
 }
 /*=============================================
 TITULO
@@ -49,6 +127,15 @@ TITULO
 	height: 60px;
 	background: rgba(255,0,0,.5);
 }
+#titule ul{
+	position: relative;
+	width: 890px;
+	height: 20px;
+	font-size: 12px;
+	top: 19px;
+	left: 150px;
+	background: rgba(100,0,0,.5);
+}
 /*=============================================
 SECCION
 =============================================*/
@@ -59,6 +146,51 @@ section{
 	height: 1317px;
 	background: rgba(0,255,0,.5);
 }
+section #sec ul{
+	position: relative;
+	top: 40px;
+	left: 75px;
+	width: 1050px;
+	height: 1200px;
+	background: rgba(0,0,290,.5);: 
+}
+section #sec ul li{
+	position: relative;
+	float: left;
+	top: 7px;
+	left: 44px;
+	margin: 60px 30px;
+	width: 421px;
+	height: 490px;
+	background: rgba(290,290,290,.5);
+}
+section #sec ul li img{
+	position: relative;
+	width: 421px;
+	height: 280px;
+}
+section #sec ul li h3{
+	position: relative;
+	top: 25px;
+	width: 421px;
+	height: 20px;
+	font-size: 12px;
+}
+section #sec ul li h1{
+	position: relative;
+	top: 42px;
+	width: 421px;
+	height: 30px;
+	font-size: 32px;
+	font-weight: 100;
+}
+section #sec ul li p{
+	position: relative;
+	top: 82px;
+	width: 421px;
+	height: 30px;
+	font-size: 16px;
+}
 /*=============================================
 BOTTOM
 =============================================*/
@@ -66,8 +198,58 @@ BOTTOM
 	position: relative;
 	margin: auto;
 	width: 1200px;
-	height: 249px;
+	height: 287px;
 	background: rgba(300,0,300,.5);
+}
+#bottom ul{
+	position: relative;
+	top: 55px;
+	left: 383px;
+	width: 430px;
+	height: 175px;
+	background: rgba(255,255,255,.5);
+}
+#bottom ul li{
+	position: relative;
+	width: 400px;
+	height: 73px;
+	top: 11px;
+	left: 14px;
+	font-size: 35px;
+	color: #303030;
+	text-align: center;
+}
+#bottom ul li hr{
+	position: relative;
+	top: 40px;
+	border-color: black;
+}
+#bottom ul li form{
+	position: relative;
+	width: 400px;
+	height: 40px;
+	top: 33px;
+	left: 5px;
+}
+#bottom ul li form input#email{
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	width: 362px;
+	height: 30px;
+	font-size: 15px;
+	color: #7f7f7f;
+	border: 0px;
+	background: #f3f3f3;
+}
+#bottom ul li form input#enviar{
+	position: absolute;
+	top: 13px;
+	left: 367px;
+	width: 33px;
+	height: 19px;
+	border: 0px;
+	background: url(../img/flechaenviar.jpg);
 }
 /*=============================================
 BOTTEM
@@ -76,8 +258,53 @@ BOTTEM
 	position: relative;
 	margin: auto;
 	width: 1200px;
-	height: 686px;
+	height: 648px;
 	background: rgba(0,300,255,.5);
+}
+#bottem ul{
+	position: relative;
+	top: 40px;
+	left: 75px;
+	width: 1050px;
+	height: 570px;
+	background: rgba(0,0,290,.5);
+}
+#bottem ul li{
+	position: relative;
+	float: left;
+	top: 62px;
+	left: 44px;
+	margin: 0px 30px;
+	width: 421px;
+	height: 490px;
+	background: rgba(290,290,290,.5);
+}
+#bottem ul li img{
+	position: relative;
+	width: 421px;
+	height: 280px;
+}
+#bottem ul li h3{
+	position: relative;
+	top: 25px;
+	width: 421px;
+	height: 20px;
+	font-size: 12px;
+}
+#bottem ul li h1{
+	position: relative;
+	top: 42px;
+	width: 421px;
+	height: 30px;
+	font-size: 32px;
+	font-weight: 100;
+}
+#bottem ul li p{
+	position: relative;
+	top: 82px;
+	width: 421px;
+	height: 30px;
+	font-size: 16px;
 }
 /*=============================================
 BOTON
@@ -89,6 +316,17 @@ BOTON
 	height: 256px;
 	background: rgba(400,255,100,.5);
 }
+#boton button{
+	position: relative;
+	top: 98px;
+	left: 516px;
+	font-size: 20px;
+	width: 164px;
+	height: 60px;
+	background: #ffffff;
+	color: #929191;
+	border: 1px solid #535353;
+}
 /*=============================================
 BOTON
 =============================================*/
@@ -98,4 +336,51 @@ footer{
 	width: 1200px;
 	height: 99px;
 	background: rgba(255,100,300,.5);
+}
+footer ul{
+	position: relative;
+	width: 202px;
+	height: 20px;
+	font-size: 16px;
+	top: 37px;
+	left: 150px;
+	background: rgba(0,100,0,.5);
+}
+footer ul#ti{
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	top: 37px;
+	left: 987px;
+	background: rgba(255,0,0,.5);
+
+}
+footer ul#inc{
+	position: absolute;
+	width: 188px;
+	height: 20px;
+	top: 37px;
+	left: 969px;
+	background: rgba(0,0,100,.5);
+}
+footer ul#inc li{
+	position: relative;
+	float: left;
+	width: 20px;
+	height: 15px;
+	left: 72px;
+	margin: 1px 6px;
+}
+footer ul#inc li:first-child{background: url(../img/inc1.jpg);
+	background-size: cover;
+}
+footer ul#inc li:nth-child(2){background: url(../img/inc2.jpg);
+	background-size: cover;
+}
+footer ul#inc li:last-child{background: url(../img/inc3.jpg);
+	background-size: cover;
+}
+footer ul#inc li a{float: left;
+	width: 20px;
+	height: 15px;
 }
