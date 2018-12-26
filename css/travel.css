@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: ;
+}
+body{
+	background: url(../img/back3.jpg);
+	background-position: top center;
+	height: 1200px;
+}
+/*=============================================
+CABEZOTE
+=============================================*/
+header{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 134px;
+	background: rgba(255,0,0,.5);
+	/*background: #ffffff;*/
+}
+#logo{
+	position: absolute;
+	top: 69px;
+	left: 67px;
+	width: 123px;
+	height: 22px;
+	background: rgba(0,0,255,.5);
+}
+/*=============================================
+BARRA DE NAVEGACION
+=============================================*/
+nav{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 134px;
+	background: rgba(0,255,0,.5);
+}
+nav ul{
+	position: relative;
+	top: 70px;
+	left: 500px;
+	width: 700px;
+	height: 19px;
+	background: rgba(300,0,0,.5);
+}
+nav ul li{
+	position: relative;
+	float: left;
+	text-align: center;
+	margin: 2px 42px;
+	font-size: 14px;
+}
+/*=============================================
+SLIDE
+=============================================*/
+#slide{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 576px;
+	background: rgba(0,0,300,.5);
+	/*background: #ffffff;*/
+}
+#slide img{
+	position: relative;
+	top: 29px;
+	left: 70px;
+	width: 1061px;
+	height: 509px;
+}

@@ -52,10 +52,7 @@ nav ul li{
 	float: left;
 	text-align: center;
 	margin: 2px 42px;
-	width: 90px;
-	height: 15px;
 	font-size: 14px;
-	background: rgba(0,300,0,.5);
 }
 /*=============================================
 SLIDE
@@ -68,7 +65,7 @@ SLIDE
 	background: rgba(0,0,300,.5);
 	/*background: #ffffff;*/
 }
-#slide ul{
+#slide img{
 	position: relative;
 	top: 29px;
 	left: 70px;
@@ -84,43 +81,32 @@ PARRAFO
 	width: 1200px;
 	height: 445px;
 	background: rgba(100,100,0,.5);
-	/*background: #ffffff;*/
+	/*background: #ffffff;*/	
 }
-#paragrhap ul{
-	position: relative;
-	top: 60px;
-	left: 147px;
-	width: 910px;
-	height: 380px;
-	background: rgba(0,255,255,.5);
-}
-#paragrhap ul h3{
+#paragrhap article{
 	position: absolute;
-	width: 890px;
-	height: 20px;
-	color: #c1c1c1;
-	font-size: 12px;
-	margin: 0px 5px;
-	background: rgba(255,255,0,.5);
+	width: 1200px;
+	height: 445px;
 }
-#paragrhap ul h1{
-	position: absolute;
-	width: 890px;
-	height: 37px;
-	color: #5c5c5c;
-	font-size: 33px;
-	font-weight: 100;
-	margin: 35px 5px;
-	background: rgba(255,0,255,.5);
+#paragrhap article h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	margin: 56px 151px;
 }
-#paragrhap ul p{
-	position: absolute;
-	width: 900px;
-	height: 266px;
+#paragrhap article h1{
+	font-family: kepler-std-semicondensed-dis, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 38px;
+	margin: -40px 151px;
+}
+#paragrhap article p{
+	font-family: kepler-std-semicondensed-dis, serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: justify;
 	font-size: 18px;
-	top: 99px;
-	left: 3px;
-	background: rgba(200,255,200,.5);
+	margin: 68px 151px;
 }
 /*=============================================
 FOTOS
@@ -132,20 +118,10 @@ FOTOS
 	height: 2230px;
 	background: rgba(290,290,100,.5);
 }
-#fotos ul{
-	position: absolute;
-	top: 0px;
-	left: 150px;
-	width: 899px;
-	height: 2230px;
-	background: rgba(100,300,299,.5);
-}
-#fotos ul li{
-	position: relative;
+#fotos ul li img{
 	width: 899px;
 	height: 676px;
-	margin: 51px 0px;
-	background: rgba(0,300,0,.5);
+	margin: 37px 150px;
 }
 /*=============================================
 TEXTU
@@ -157,20 +133,18 @@ TEXTU
 	height: 345px;
 	background: rgba(100,255,255,.5);
 }
-#textu ul {
-	position: relative;
-	top: 4px;
-	left: 120px;
-	width: 960px;
-	height: 330px;
-	background: rgba(0,255,0,.5);
+#textu article{
+	position: absolute;
+	width: 1200px;
+	height: 345px;
 }
-#textu ul li p{
-	position: relative;
-	width: 930px;
-	height: 330px;
-	margin: 0px 25px;
-	font-size: 19px;
+#textu article p{
+	font-family: kepler-std-semicondensed-dis, serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: justify;
+	font-size: 18px;
+	margin: 5px 151px;
 }
 /*=============================================
 REDES
@@ -237,44 +211,39 @@ BOTTOM
 	height: 434px;
 	background: rgba(0,190,0,.5);
 }
-#bottom ul{
-	position: relative;
-	top: 20px;
-	left: 100px;
-	width: 1000px;
-	height: 390px;
-	background: rgba(255,0,0,.5);
+#bottom article{
+	position: absolute;
+	width: 936px;
+	height: 434px;
 }
-#bottom ul li{
+#bottom article img{
 	position: relative;
 	float: left;
-	top: 39px;
-	left: 31px;
-	margin: 0px 20px;
-	width: 272px;
-	height: 290px;
-	background: rgba(0,0,300,.5);
-}
-#bottom ul li h3{
-	position: relative;
-	top: 6px;
-	width: 272px;
-	height: 30px;
-	font-size: 13px;
-	font-weight: 100;
-}
-#bottom ul li img{
-	position: absolute;
-	top: 60px;
+	left: 150px;
+	margin-top: 34px;
+	margin-right: 40px;
 	width: 272px;
 	height: 183px;
 }
-#bottom ul li h1{
-	position: absolute;
-	top: 263px;
-	width: 272px;
-	font-size: 22px;
-	font-weight: 100;
+#bottom article h3{
+	font-family: kepler-std-semicondensed-dis, serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: justify;
+	font-size: 17px;
+	margin-left: 153px;
+	margin-top: 66px;
+}
+#bottom article h1{
+	font-family: kepler-std-semicondensed-dis, serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: justify;
+	position: relative;
+	float: left;
+	left: 90px;
+	font-size: 24px; 
+	margin: 18px 73px;
 }
 /*=============================================
 COMENTARIOS
@@ -286,30 +255,76 @@ COMENTARIOS
 	height: 661px;
 	background: rgba(0,0,190,.5);
 }
-#comentarios ul{
+#comentarios article{
+	position: absolute;
+	width: 1057px;
+	height: 661px;
+}
+#comentarios article h1{
+	font-family: kepler-std-semicondensed-dis, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 17px;
+	margin-top: 64px;
+	margin-left: 151px;
+}
+#comentarios article img{
+	position: absolute;
+	width: 70px;
+	height: 71px;
+	margin-left: 151px;
+	margin-right: 30px;
+}
+#comentarios article h3{
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	margin-left: 256px;
+}
+#comentarios article p{
+	position: absolute;
+	font-family: kepler-std-semicondensed-dis, serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: justify;
+	font-size: 15px;
+	margin-left: 256px;
+}
+#comentarios article h4{
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	margin-left: 256px;
+}
+#comentarios article form textarea{
+	margin-left: 250px;
+	border-radius: 5px;
+	border-color: ;
+	width: 795px;
+	height: 71px;
+}
+#comentarios article ul li{
 	position: relative;
-	top: 66px;
-	left: 150px;
-	width: 904px;
+	float: left;
+    left: 999px;
+	width: 20px;
 	height: 20px;
-	font-size: 13px;
-	font-weight: 100;
+	margin: -8px 5px;
 }
-#comentarios ul#cone{
-	position: relative;
-	top: 98px;
-	left: 148px;
-	width: 904px;
-	height: 380px;
-	background: rgba(300,0,0,.5);
+#comentarios article ul li:first-child{background: url(../img/red2.jpg);
+	background-size: cover;
 }
-#comentarios ul#reds{
-	position: relative;
-	top: 98px;
-	left: 790px;
-	width: 300px;
-	height: 55px;
-	background: rgba(0,300,0,.5);
+#comentarios article ul li:last-child{background: url(../img/facebook.jpg);
+	background-size: cover;
+}
+#comentarios article h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 852px;
+	font-size: 15px;
+}
+#comentarios article a{
+	width: 20px;
+	height: 20px;
 }
 /*=============================================
 FOOTER
