@@ -6,9 +6,8 @@
 	font-family: ;
 }
 body{
-	background: url(../img/back2.jpg);
-	background-position: top center;
-	height: 1200px;
+	background: url(../img/background2.jpg);
+	background-repeat: repeat;
 }
 /*=============================================
 CABEZOTE
@@ -18,8 +17,7 @@ header{
 	margin: auto;
 	width: 1200px;
 	height: 134px;
-	background: rgba(255,0,0,.5);
-	/*background: #ffffff;*/
+	background: #ffffff;
 }
 #logo{
 	position: absolute;
@@ -27,7 +25,6 @@ header{
 	left: 67px;
 	width: 123px;
 	height: 22px;
-	background: rgba(0,0,255,.5);
 }
 /*=============================================
 BARRA DE NAVEGACION
@@ -37,7 +34,6 @@ nav{
 	margin: auto;
 	width: 1200px;
 	height: 134px;
-	background: rgba(0,255,0,.5);
 }
 nav ul{
 	position: relative;
@@ -45,7 +41,6 @@ nav ul{
 	left: 500px;
 	width: 700px;
 	height: 19px;
-	background: rgba(300,0,0,.5);
 }
 nav ul li{
 	position: relative;
@@ -62,8 +57,7 @@ SLIDE
 	margin: auto;
 	width: 1200px;
 	height: 576px;
-	background: rgba(0,0,300,.5);
-	/*background: #ffffff;*/
+	background: #ffffff;
 }
 #slide img{
 	position: relative;
@@ -80,8 +74,7 @@ PARRAFO
 	margin: auto;
 	width: 1200px;
 	height: 445px;
-	background: rgba(100,100,0,.5);
-	/*background: #ffffff;*/	
+	background: #ffffff;	
 }
 #paragrhap article{
 	position: absolute;
@@ -92,6 +85,7 @@ PARRAFO
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	margin: 56px 151px;
+	color: #d8d7d5;
 }
 #paragrhap article h1{
 	font-family: kepler-std-semicondensed-dis, serif;
@@ -107,6 +101,7 @@ PARRAFO
 	text-align: justify;
 	font-size: 18px;
 	margin: 68px 151px;
+	color: #555555;
 }
 /*=============================================
 FOTOS
@@ -116,7 +111,6 @@ FOTOS
 	margin: auto;
 	width: 1200px;
 	height: 2230px;
-	background: rgba(290,290,100,.5);
 }
 #fotos ul li img{
 	width: 899px;
@@ -131,7 +125,6 @@ TEXTU
 	margin: auto;
 	width: 1200px;
 	height: 345px;
-	background: rgba(100,255,255,.5);
 }
 #textu article{
 	position: absolute;
@@ -145,6 +138,7 @@ TEXTU
 	text-align: justify;
 	font-size: 18px;
 	margin: 5px 151px;
+	color: #555555;
 }
 /*=============================================
 REDES
@@ -154,7 +148,6 @@ REDES
 	margin: auto;
 	width: 1200px;
 	height: 123px;
-	background: rgba(350,0,0,.5);
 }
 #redes ul{
 	position: absolute;
@@ -164,7 +157,7 @@ REDES
 	height: 20px;
 	font-size: 12px;
 	text-align: center;
-	background: rgba(200,200,0,.5);
+	color: #d8d7d5;
 }
 #redes ul#re{
 	position: absolute;
@@ -172,7 +165,6 @@ REDES
 	left: 900px;
 	width: 160px;
 	height: 20px;
-	background: rgba(100,55,240,.5);
 }
 #redes ul#re li{
 	position: relative;
@@ -209,7 +201,6 @@ BOTTOM
 	margin: auto;
 	width: 1200px;
 	height: 434px;
-	background: rgba(0,190,0,.5);
 }
 #bottom article{
 	position: absolute;
@@ -233,6 +224,7 @@ BOTTOM
 	font-size: 17px;
 	margin-left: 153px;
 	margin-top: 66px;
+	color: #d8d7d5;
 }
 #bottom article h1{
 	font-family: kepler-std-semicondensed-dis, serif;
@@ -244,6 +236,7 @@ BOTTOM
 	left: 90px;
 	font-size: 24px; 
 	margin: 18px 73px;
+	color: #5d5d5d;
 }
 /*=============================================
 COMENTARIOS
@@ -253,7 +246,6 @@ COMENTARIOS
 	margin: auto;
 	width: 1200px;
 	height: 661px;
-	background: rgba(0,0,190,.5);
 }
 #comentarios article{
 	position: absolute;
@@ -267,6 +259,7 @@ COMENTARIOS
 	font-size: 17px;
 	margin-top: 64px;
 	margin-left: 151px;
+	color: #d8d7d5;
 }
 #comentarios article img{
 	position: absolute;
@@ -280,6 +273,7 @@ COMENTARIOS
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	margin-left: 256px;
+	color: #5e5e5e;
 }
 #comentarios article p{
 	position: absolute;
@@ -289,12 +283,14 @@ COMENTARIOS
 	text-align: justify;
 	font-size: 15px;
 	margin-left: 256px;
+	color: #555555;
 }
 #comentarios article h4{
 	position: absolute;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	margin-left: 256px;
+	color: #d8d7d5;
 }
 #comentarios article form textarea{
 	margin-left: 250px;
@@ -303,13 +299,24 @@ COMENTARIOS
 	width: 795px;
 	height: 71px;
 }
+#comentarios article ul{
+	position: absolute;
+	top: 529px;
+	left: 992px;
+	width: 67px;
+	height: 20px;
+}
 #comentarios article ul li{
 	position: relative;
 	float: left;
-    left: 999px;
 	width: 20px;
 	height: 20px;
-	margin: -8px 5px;
+	margin: -0px 5px;
+}
+#comentarios article ul li a{
+	float: left;
+	width: 20px;
+	height: 20px;
 }
 #comentarios article ul li:first-child{background: url(../img/red2.jpg);
 	background-size: cover;
@@ -321,10 +328,7 @@ COMENTARIOS
 	font-family: 'Source Sans Pro', sans-serif;
 	margin-left: 852px;
 	font-size: 15px;
-}
-#comentarios article a{
-	width: 20px;
-	height: 20px;
+	color: #d8d7d5;
 }
 /*=============================================
 FOOTER
@@ -334,8 +338,7 @@ footer{
 	margin: auto;
 	width: 1200px;
 	height: 99px;
-	background: rgba(255,155,255,.5);
-	/*background: #f3f3f3;*/
+	background: #f3f3f3;
 }
 footer ul{
 	position: relative;

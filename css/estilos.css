@@ -6,9 +6,8 @@
 	font-family: ;
 }
 body{
-	background: url(../img/back.jpg);
-	background-position: top center;
-	height: 1200px;
+	background: url(../img/background1.jpg);
+	background-repeat: repeat;
 }
 /*=============================================
 CABEZOTE
@@ -18,8 +17,7 @@ header{
 	margin: auto;
 	width: 1200px;
 	height: 134px;
-	background: rgba(255,0,0,.5);
-	/*background: #ffffff;*/
+	background: #ffffff;
 }
 #logo{
 	position: absolute;
@@ -27,7 +25,6 @@ header{
 	left: 67px;
 	width: 123px;
 	height: 22px;
-	background: rgba(0,0,255,.5);
 }
 /*=============================================
 BARRA DE NAVEGACION
@@ -37,7 +34,6 @@ nav{
 	margin: auto;
 	width: 1200px;
 	height: 134px;
-	background: rgba(0,255,0,.5);
 }
 nav ul{
 	position: relative;
@@ -45,7 +41,6 @@ nav ul{
 	left: 500px;
 	width: 700px;
 	height: 19px;
-	background: rgba(300,0,0,.5);
 }
 nav ul li{
 	position: relative;
@@ -62,8 +57,7 @@ SLIDE
 	margin: auto;
 	width: 1200px;
 	height: 576px;
-	background: rgba(0,0,300,.5);
-	/*background: #ffffff;*/
+	background: #ffffff;
 }
 #slide img{
 	position: relative;
@@ -80,8 +74,7 @@ PARRAFO
 	margin: auto;
 	width: 1200px;
 	height: 377px;
-	background: rgba(100,100,0,.5);
-	/*background: #ffffff;*/	
+	background: #ffffff;	
 }
 #paragrhap article{
 	position: absolute;
@@ -116,8 +109,7 @@ TITULO
 	margin: auto;
 	width: 1200px;
 	height: 60px;
-	background: rgba(0,0,255,.5);
-	/*background: #ffffff;*/
+	background: #ffffff;
 }
 #titule ul{
 	position: relative;
@@ -137,8 +129,7 @@ section{
 	margin: auto;
 	width: 1200px;
 	height: 1317px;
-	background: rgba(255,0,0,.5);
-	/*background: #ffffff;*/
+	background: #ffffff;
 }
 section ul{
 	position: relative;
@@ -193,8 +184,7 @@ BOTTOM
 	margin: auto;
 	width: 1200px;
 	height: 287px;
-	background: rgba(255,0,255,.5);
-	/*background: #f3f3f3;*/
+	background: #f3f3f3;
 }
 #bottom article{
 	position: relative;
@@ -248,8 +238,7 @@ BOTTEM
 	margin: auto;
 	width: 1200px;
 	height: 648px;
-	background: rgba(0,255,255,.5);
-	/*background: #ffffff;*/
+	background: #ffffff;
 }
 #bottem ul{
 	position: relative;
@@ -304,8 +293,7 @@ BOTON
 	margin: auto;
 	width: 1200px;
 	height: 256px;
-	background: rgba(0,255,0,.5);
-	/*background: #ffffff;*/
+	background: #ffffff;
 }
 #boton button{
 	position: relative;
@@ -326,8 +314,7 @@ footer{
 	margin: auto;
 	width: 1200px;
 	height: 99px;
-	background: rgba(300,0,255,.5);
-	/*background: #f3f3f3;*/
+	background: #f3f3f3;
 }
 footer ul{
 	position: relative;
