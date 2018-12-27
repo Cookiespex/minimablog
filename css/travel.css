@@ -220,7 +220,12 @@ aside img#as{
 	margin-top: 60px;
 	margin-left: 28px;
 }
-aside article{margin: 20px 24px;}
+aside article{
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 67px;
+	margin-bottom: 20px;
+}
 aside article h1{
 	font-family: kepler-std-semicondensed-dis, serif;
 	font-weight: 700;
@@ -245,7 +250,7 @@ aside ul li{
 	float: left;
 	width: 22px;
 	height: 20px;
-	left: 16px;
+	left: 20px;
 	margin: 5px 6px;
 }
 aside ul li:first-child{background: url(../img/asifk.jpg);
@@ -263,7 +268,7 @@ aside ul li a{float: left;
 }
 aside h2{
 	margin-top: 74px;
-	margin-left: 28px;
+	margin-left: 35px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	color: #d8d7d5;
