@@ -12,7 +12,13 @@ body{
 /*=============================================
 CABEZOTE
 =============================================*/
-header{
+#naveg{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 134px;
+}
+#naveg header{
 	position: relative;
 	margin: auto;
 	width: 1200px;
@@ -29,25 +35,19 @@ header{
 /*=============================================
 BARRA DE NAVEGACION
 =============================================*/
-nav{
+#naveg nav ul{
 	position: relative;
-	margin: auto;
-	width: 1200px;
-	height: 134px;
-}
-nav ul{
-	position: relative;
-	top: 70px;
+	top: -65px;
 	left: 500px;
 	width: 700px;
-	height: 19px;
 }
-nav ul li{
+#naveg nav ul li{
 	position: relative;
 	float: left;
 	text-align: center;
 	margin: 2px 42px;
 	font-size: 14px;
+	color: #5e5e5e;
 }
 /*=============================================
 SLIDE
@@ -298,6 +298,8 @@ COMENTARIOS
 	border-color: ;
 	width: 795px;
 	height: 71px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #d8d7d5;
 }
 #comentarios article ul{
 	position: absolute;

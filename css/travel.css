@@ -6,20 +6,24 @@
 	font-family: ;
 }
 body{
-	background: url(../img/back3.jpg);
-	background-position: top center;
-	height: 1200px;
+	background: url(../img/background3.jpg);
+	background-repeat: repeat;
 }
 /*=============================================
 CABEZOTE
 =============================================*/
-header{
+#naveg{
 	position: relative;
 	margin: auto;
 	width: 1200px;
 	height: 134px;
-	background: rgba(255,0,0,.5);
-	/*background: #ffffff;*/
+}
+#naveg header{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 134px;
+	background: #ffffff;
 }
 #logo{
 	position: absolute;
@@ -27,32 +31,23 @@ header{
 	left: 67px;
 	width: 123px;
 	height: 22px;
-	background: rgba(0,0,255,.5);
 }
 /*=============================================
 BARRA DE NAVEGACION
 =============================================*/
-nav{
+#naveg nav ul{
 	position: relative;
-	margin: auto;
-	width: 1200px;
-	height: 134px;
-	background: rgba(0,255,0,.5);
-}
-nav ul{
-	position: relative;
-	top: 70px;
+	top: -65px;
 	left: 500px;
 	width: 700px;
-	height: 19px;
-	background: rgba(300,0,0,.5);
 }
-nav ul li{
+#naveg nav ul li{
 	position: relative;
 	float: left;
 	text-align: center;
 	margin: 2px 42px;
 	font-size: 14px;
+	color: #5e5e5e;
 }
 /*=============================================
 SLIDE
@@ -62,8 +57,7 @@ SLIDE
 	margin: auto;
 	width: 1200px;
 	height: 576px;
-	background: rgba(0,0,300,.5);
-	/*background: #ffffff;*/
+	background: #ffffff;
 }
 #slide img{
 	position: relative;
@@ -80,21 +74,18 @@ section{
 	margin: auto;
 	width: 1200px;
 	height: 2739px;
-	background: rgba(155,155,255,.5);
 }
 /*===== SECPRIN ======*/
 #secprin{
 	position: absolute;
 	width: 830px;
 	height: 2739px;
-	background: rgba(0,255,0,.5);
 }
 /*=====  PARAGRHAP ======*/
 #paragrhap{
 	width: 830px;
 	height: 445px;
-	background: rgba(100,100,0,.5);
-	/*background: #ffffff;*/	
+	background: #ffffff;	
 }
 #paragrhap article{
 	position: absolute;
@@ -105,6 +96,7 @@ section{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	margin: 56px 151px;
+	color: #d8d7d5;
 }
 #paragrhap article h1{
 	font-family: kepler-std-semicondensed-dis, serif;
@@ -122,6 +114,7 @@ section{
 	margin-top: 67px;
 	margin-left: 151px;
 	margin-right: 64px;
+	color: #555555;
 }
 /*===== FOTOS ======*/
 #fotos{
@@ -129,7 +122,7 @@ section{
 	width: 830px;
 	height: 1680px;
 	top: 445px;
-	background: rgba(290,290,100,.5);
+	background: #ffffff;
 }
 #fotos ul li img{
 	width: 661px;
@@ -143,7 +136,7 @@ section{
 	width: 830px;
 	height: 450px;
 	top: 2125px;
-	background: rgba(100,255,255,.5);
+	background: #ffffff;
 }
 #textu article{
 	position: absolute;
@@ -159,6 +152,7 @@ section{
 	margin-top: 5px;
 	margin-left: 151px;
 	margin-right: 64px;
+	color: #555555;
 }
 /*===== REDES ======*/
 #redes{
@@ -166,7 +160,7 @@ section{
 	width: 830px;
 	height: 164px;
 	top: 2575px;
-	background: rgba(350,0,0,.5);
+	background: #ffffff;
 }
 #redes ul{
 	position: absolute;
@@ -176,7 +170,7 @@ section{
 	height: 20px;
 	font-size: 12px;
 	text-align: center;
-	background: rgba(200,200,0,.5);
+	color: #d8d7d5;
 }
 #redes ul#re{
 	position: absolute;
@@ -184,7 +178,6 @@ section{
 	left: 660px;
 	width: 160px;
 	height: 20px;
-	background: rgba(100,55,240,.5);
 }
 #redes ul#re li{
 	position: relative;
@@ -221,7 +214,7 @@ aside{
 	left: 830px;
 	width: 370px;
 	height: 2739px;
-	background: rgba(255,0,0,.5);
+	background: #ffffff;
 }
 aside img#as{
 	margin-top: 60px;
@@ -233,6 +226,7 @@ aside article h1{
 	font-weight: 700;
 	font-style: normal;
 	font-size: 29px;
+	color: #666666;
 }
 aside article p{
 	font-family: kepler-std-semicondensed-dis, serif;
@@ -240,6 +234,7 @@ aside article p{
 	font-style: normal;
 	text-align: justify;
 	font-size: 17px;
+	color: #555555;
 }
 aside ul{
 	width: 120px;
@@ -249,21 +244,21 @@ aside ul li{
 	position: relative;
 	float: left;
 	width: 22px;
-	height: 19px;
-	left: 7px;
+	height: 20px;
+	left: 16px;
 	margin: 5px 6px;
 }
-aside ul li:first-child{background: url(../img/inc1.jpg);
+aside ul li:first-child{background: url(../img/asifk.jpg);
 	background-size: cover;
 }
-aside ul li:nth-child(2){background: url(../img/inc3.jpg);
+aside ul li:nth-child(2){background: url(../img/asiim.jpg);
 	background-size: cover;
 }
-aside ul li:last-child{background: url(../img/red5.jpg);
+aside ul li:last-child{background: url(../img/asips.jpg);
 	background-size: cover;
 }
 aside ul li a{float: left;
-	width: 20px;
+	width: 22px;
 	height: 20px;
 }
 aside h2{
@@ -271,11 +266,13 @@ aside h2{
 	margin-left: 28px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
+	color: #d8d7d5;
 }
 aside ol{
 	margin-top: 31px;
 	margin-left: 56px;
 	font-size: 15px;
+	color: #555555;
 }
 aside ol li{list-style-type: disc;}
 aside img#ofer{
@@ -290,7 +287,6 @@ BOTTOM
 	margin: auto;
 	width: 1200px;
 	height: 434px;
-	background: rgba(0,190,0,.5);
 }
 #bottom article{
 	position: absolute;
@@ -314,6 +310,7 @@ BOTTOM
 	font-size: 17px;
 	margin-left: 153px;
 	margin-top: 66px;
+	color: #d8d7d5;
 }
 #bottom article h1{
 	font-family: kepler-std-semicondensed-dis, serif;
@@ -325,6 +322,7 @@ BOTTOM
 	left: 90px;
 	font-size: 24px; 
 	margin: 18px 73px;
+	color: #5d5d5d;
 }
 /*=============================================
 COMENTARIOS
@@ -334,7 +332,6 @@ COMENTARIOS
 	margin: auto;
 	width: 1200px;
 	height: 649px;
-	background: rgba(0,0,190,.5);
 }
 #comentarios article{
 	position: absolute;
@@ -348,6 +345,7 @@ COMENTARIOS
 	font-size: 17px;
 	margin-top: 64px;
 	margin-left: 151px;
+	color: #d8d7d5;
 }
 #comentarios article img{
 	position: absolute;
@@ -361,6 +359,7 @@ COMENTARIOS
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	margin-left: 256px;
+	color: #5e5e5e;
 }
 #comentarios article p{
 	position: absolute;
@@ -370,12 +369,14 @@ COMENTARIOS
 	text-align: justify;
 	font-size: 15px;
 	margin-left: 256px;
+	color: #555555;
 }
 #comentarios article h4{
 	position: absolute;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	margin-left: 256px;
+	color: #d8d7d5;
 }
 #comentarios article form textarea{
 	margin-left: 250px;
@@ -383,6 +384,8 @@ COMENTARIOS
 	border-color: ;
 	width: 795px;
 	height: 71px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #d8d7d5;
 }
 #comentarios article ul{
 	position: absolute;
@@ -413,6 +416,7 @@ COMENTARIOS
 	font-family: 'Source Sans Pro', sans-serif;
 	margin-left: 852px;
 	font-size: 15px;
+	color: #d8d7d5;
 }
 /*=============================================
 FOOTER
@@ -422,8 +426,7 @@ footer{
 	margin: auto;
 	width: 1200px;
 	height: 95px;
-	background: rgba(255,155,255,.5);
-	/*background: #f3f3f3;*/
+	background: #f3f3f3;
 }
 footer ul{
 	position: relative;
